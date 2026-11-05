@@ -33,13 +33,7 @@ export const topics: Topic[] = [
       "Evaluate expressions by substitution",
       "Simplify expressions by combining like terms and using the distributive property",
     ],
-    lessonIds: [
-      "intro-algebraic-expressions",
-      "parts-of-expression",
-      "like-unlike-terms",
-      "evaluating-expressions",
-      "simplifying-expressions",
-    ],
+    lessonIds: ["intro-algebraic-expressions", "parts-of-expression", "like-unlike-terms", "evaluating-expressions", "simplifying-expressions"],
     availability: "active",
     hasPrerequisiteCheck: true,
   },
@@ -48,14 +42,9 @@ export const topics: Topic[] = [
     order: 2,
     unit: UNIT1,
     title: "Adding and Subtracting Simple Polynomials",
-    description:
-      "Combine polynomial expressions by adding and subtracting like terms.",
-    objectives: [
-      "Add polynomials",
-      "Subtract polynomials",
-      "Use polynomial sums and differences to find missing sides",
-    ],
-    lessonIds: ["adding-polynomials", "subtracting-polynomials"],
+    description: "Combine polynomial expressions by adding and subtracting like terms.",
+    objectives: ["Add polynomials", "Subtract polynomials", "Use polynomial sums and differences to find missing sides"],
+    lessonIds: ["intro-polynomials", "adding-polynomials", "subtracting-polynomials"],
     availability: "active",
   },
   {
@@ -63,14 +52,9 @@ export const topics: Topic[] = [
     order: 3,
     unit: UNIT1,
     title: "Multiplying and Dividing Simple Polynomials",
-    description:
-      "Use the laws of exponents to multiply and divide monomials and polynomials.",
-    objectives: [
-      "Apply the laws of exponents",
-      "Multiply monomials and polynomials",
-      "Divide a polynomial by a monomial",
-    ],
-    lessonIds: ["exponent-laws", "multiply-divide-polynomials"],
+    description: "Use the laws of exponents to multiply and divide monomials and polynomials.",
+    objectives: ["Apply the laws of exponents", "Multiply monomials and polynomials", "Divide a polynomial by a monomial"],
+    lessonIds: ["intro-exponents", "exponent-laws", "multiply-divide-polynomials"],
     availability: "active",
   },
   {
@@ -79,12 +63,8 @@ export const topics: Topic[] = [
     unit: UNIT1,
     title: "Special Products",
     description: "Recognize patterns that let you multiply binomials quickly.",
-    objectives: [
-      "Square a binomial",
-      "Multiply conjugates",
-      "Use patterns for mental math",
-    ],
-    lessonIds: ["square-of-binomial", "sum-and-difference"],
+    objectives: ["Square a binomial", "Multiply conjugates", "Use patterns for mental math"],
+    lessonIds: ["intro-special-products", "square-of-binomial", "sum-and-difference"],
     availability: "active",
   },
   {
@@ -93,11 +73,8 @@ export const topics: Topic[] = [
     unit: UNIT1,
     title: "Monomial Factoring and Factoring by Grouping",
     description: "Undo multiplication by factoring out common factors.",
-    objectives: [
-      "Factor out the greatest common monomial factor",
-      "Factor four-term polynomials by grouping",
-    ],
-    lessonIds: ["greatest-common-factor", "factoring-by-grouping"],
+    objectives: ["Factor out the greatest common monomial factor", "Factor four-term polynomials by grouping"],
+    lessonIds: ["intro-factoring", "greatest-common-factor", "factoring-by-grouping"],
     availability: "active",
   },
   {
@@ -105,37 +82,19 @@ export const topics: Topic[] = [
     order: 6,
     unit: UNIT1,
     title: "Factoring Special Forms and Quadratic Trinomials",
-    description:
-      "Factor difference of two squares, perfect square trinomials, and quadratic trinomials.",
-    objectives: [
-      "Factor the difference of two squares",
-      "Factor perfect square trinomials",
-      "Factor quadratic trinomials",
-    ],
-    lessonIds: [
-      "difference-of-two-squares",
-      "perfect-square-trinomials",
-      "quadratic-trinomials",
-    ],
+    description: "Factor difference of two squares, perfect square trinomials, and quadratic trinomials.",
+    objectives: ["Factor the difference of two squares", "Factor perfect square trinomials", "Factor quadratic trinomials"],
+    lessonIds: ["intro-special-forms", "difference-of-two-squares", "perfect-square-trinomials", "quadratic-trinomials"],
     availability: "active",
   },
   {
     id: "rational-expressions-simplify",
     order: 7,
     unit: UNIT1,
-    title:
-      "Simplifying, Multiplying, and Dividing Rational Algebraic Expressions",
-    description:
-      "Work with algebraic fractions the same way you work with numerical fractions.",
-    objectives: [
-      "Simplify rational expressions",
-      "Multiply rational expressions",
-      "Divide rational expressions",
-    ],
-    lessonIds: [
-      "simplifying-rational-expressions",
-      "multiplying-dividing-rational",
-    ],
+    title: "Simplifying, Multiplying, and Dividing Rational Algebraic Expressions",
+    description: "Work with algebraic fractions the same way you work with numerical fractions.",
+    objectives: ["Simplify rational expressions", "Multiply rational expressions", "Divide rational expressions"],
+    lessonIds: ["intro-rational-expressions", "simplifying-rational-expressions", "multiplying-dividing-rational"],
     availability: "active",
   },
   {
@@ -143,13 +102,9 @@ export const topics: Topic[] = [
     order: 8,
     unit: UNIT1,
     title: "Adding and Subtracting Rational Algebraic Expressions",
-    description:
-      "Find common denominators for algebraic fractions and combine them.",
-    objectives: [
-      "Add and subtract with like denominators",
-      "Add and subtract with unlike denominators",
-    ],
-    lessonIds: ["like-denominators", "unlike-denominators"],
+    description: "Find common denominators for algebraic fractions and combine them.",
+    objectives: ["Add and subtract with like denominators", "Add and subtract with unlike denominators"],
+    lessonIds: ["intro-adding-rational-expressions", "like-denominators", "unlike-denominators"],
     availability: "active",
   },
   {
@@ -157,13 +112,9 @@ export const topics: Topic[] = [
     order: 9,
     unit: UNIT1,
     title: "Sequences",
-    description:
-      "Discover patterns in lists of numbers and describe them with rules.",
-    objectives: [
-      "Describe number patterns",
-      "Find the nth term of arithmetic sequences",
-    ],
-    lessonIds: ["number-patterns", "arithmetic-sequences"],
+    description: "Discover patterns in lists of numbers and describe them with rules.",
+    objectives: ["Describe number patterns", "Find the nth term of arithmetic sequences"],
+    lessonIds: ["intro-sequences", "number-patterns", "arithmetic-sequences"],
     availability: "active",
   },
   {
@@ -172,11 +123,8 @@ export const topics: Topic[] = [
     unit: "Unit 1 · Statistics",
     title: "Measures of Central Tendency",
     description: "Summarize data using the mean, median and mode.",
-    objectives: [
-      "Compute mean, median and mode",
-      "Choose a suitable measure for a data set",
-    ],
-    lessonIds: ["mean", "median-and-mode"],
+    objectives: ["Compute mean, median and mode", "Choose a suitable measure for a data set"],
+    lessonIds: ["intro-central-tendency", "mean", "median-and-mode"],
     availability: "active",
   },
   {

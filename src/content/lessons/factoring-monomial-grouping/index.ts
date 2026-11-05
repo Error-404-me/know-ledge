@@ -1,6 +1,7 @@
 import type { Lesson } from "@/types/content";
-import { greatestCommonFactor } from "./lesson1-greatest-common-factor";
-import { factoringByGrouping } from "./lesson2-factoring-by-grouping";
-export { questions } from "./factoringMonomialGrouping";
+import { introFactoring } from "./lesson1-intro-factoring";
+import { greatestCommonFactor } from "./lesson2-greatest-common-factor";
+import { factoringByGrouping } from "./lesson3-factoring-by-grouping";
+export { questions } from "../../questions/factoringMonomialGrouping";
 
-export const lessons: Lesson[] = [greatestCommonFactor, factoringByGrouping];
+export const lessons: Lesson[] = [introFactoring, greatestCommonFactor, factoringByGrouping];
